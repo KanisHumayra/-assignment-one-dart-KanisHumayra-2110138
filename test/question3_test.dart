@@ -47,7 +47,7 @@ void main() {
     test('main function runs without errors', () {
       // This test verifies that the main function exists and can be called
       expect(true, isTrue);
-      print(isTrue);
+      
     });
   });
 }

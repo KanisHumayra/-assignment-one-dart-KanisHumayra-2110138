@@ -4,6 +4,7 @@ import '../question1.dart';
 
 void main() {
   group('Question 1 Tests', () {
+        
     test('calculateBMI function works correctly', () {
       // Test BMI calculation - convert feet to meters (5.9 ft = 1.8 m)
       var bmi = calculateBMI(150, 1.8);
@@ -30,7 +31,6 @@ void main() {
       // This test verifies that the main function exists and can be called
       // The actual output verification is done in the grading script
       expect(true, isTrue);
-      print(isTrue);
     });
   });
 }
